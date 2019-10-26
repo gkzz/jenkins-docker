@@ -47,7 +47,6 @@ ubuntu@hostname ~/jenkins-docker (master) $
 
 ### Set Your Pub Key to conf/secrets.env
 ```
-ubuntu@hostname ~/jenkins-docker (master) $ cp conf/secrets.env.tmpl conf.secrets.env
 ubuntu@hostname ~/jenkins-docker (master) $ cat jenkins_home/.ssh/id_rsa_jenkins_master.pub >> conf/secrets.env
 ubuntu@hostname ~/jenkins-docker (master) $ cat conf/secrets.env      //Modify like conf/secrets.env.tmpl
 JENKINS_SLAVE_SSH_PUBKEY=ssh-rsa xxxxxxxxxxxxxxxxxxxx== sample@sample.com
@@ -58,6 +57,7 @@ JENKINS_SLAVE_SSH_PUBKEY=ssh-rsa xxxxxxxxxxxxxxxxxxxx== sample@sample.com
 
 ### Checkout if authorized_keys on slave cluster exists or not
 ```
+ubuntu@hostname ~/jenkins-docker (master) $ docker-compose up -d
 ubuntu@hostname ~/jenkins-docker (master) $ docker-compose exec slave01 bash
 root@slave01:/home/jenkins# pwd
 /home/jenkins

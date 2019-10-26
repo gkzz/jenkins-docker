@@ -6,6 +6,7 @@
 ```
 ubuntu@hostname ~/jenkins-docker (master) $ git clone git@github.com:gkzz/jenkins-docker.git
 ubuntu@hostname ~/jenkins-docker (master) $ docker-compose -f docker-compose-init.yml up -d
+ubuntu@hostname ~/jenkins-docker (master) $ touch conf/secrets.env
 ubuntu@hostname ~/jenkins-docker (master) $ docker-compose exec master bash
 root@master:/# cat /var/jenkins_home/secrets/initialAdminPassword
 xxxxxxxxxxxxxxxxxxxxxxxx
