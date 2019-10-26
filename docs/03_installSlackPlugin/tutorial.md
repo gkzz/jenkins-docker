@@ -2,18 +2,18 @@
 
 - Go to ${YOUR_SLACK_APP_DIRECTORY}
   - cf. https://${YOUR_WORKSPACE}.slack.com/apps
-- Enter "jenkins" on search window
+- Enter *jenkins* on search window
 - Press "Jenkins CI", and "Add to Slack"
 - Select channels to post
 - Press "Add Jenkins CI integration"
-- Copy Token
+- Copy *Token*
 - Press "Save Settings"
 
-<img src="/docs/03_installSlackPlugin/img/slakApp.png" alt="Config slack app" style="max-width:5%;">
+<img src="/docs/03_installSlackPlugin/img/slackApp.png" alt="Config slack app" style="max-width:5%;">
 
 - Click "Manage Jenkins" > "Manage Plugins" > "Available"
-- Search by slack
-- Click "Slack Notification", and "Install without restart"
+- Search by *slack*
+- Click *Slack Notification*, and "Install without restart"
 
 <img src="/docs/03_installSlackPlugin/img/installSlackNotificationPlugin.png" alt="install Slack Notification Plugin" style="max-width:5%;">
 
