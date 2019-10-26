@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-- Build a Jenkins container as master cluster
+- Build a Jenkins container as `master cluster`
 ```
 ubuntu@hostname ~/jenkins-docker (master) $ git clone git@github.com:gkzz/jenkins-docker.git
 ubuntu@hostname ~/jenkins-docker (master) $ docker-compose -f docker-compose-init.yml up -d

@@ -10,13 +10,13 @@
 <img src="/docs/01_initialSetup/img/setInitPw.png" alt="Set your initialAdminPassword" style="max-width:5%;">
 
 - Select installation plan
-  - I chose *Install suggested plugins*
+  - I chose `Install suggested plugins`
 
   <img src="/docs/01_initialSetup/img/installPlugin.png" alt="Select installation plan" style="max-width:5%;">
 
 
 - Create user
- - You have to write *E-mail address in the correct format* as bellow;
+ - You have to write `E-mail address in the correct format` as bellow;
 
  sample@sample.com
 
