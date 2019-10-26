@@ -11,7 +11,7 @@
 
 <img src="/docs/03_installSlackPlugin/img/slackApp.png" alt="Config slack app" style="max-width:5%;">
 
-- Click "Manage Jenkins" > "Manage Plugins" > "Available"
+- Click "Manage Jenkins" on ${PUBLIC_IP}:8080 > "Manage Plugins" > "Available"
 - Search by `slack`
 - Click `Slack Notification`, and "Install without restart"
 
@@ -25,7 +25,7 @@
 
 <img src="/docs/03_installSlackPlugin/img/executeReload.png" alt="Get restart" style="max-width:5%;">
 
-- Click "Manage Jenkins" > "Configure System", and scroll down to slack configuration
+- Click "Manage Jenkins" on ${PUBLIC_IP}:8080 > "Configure System", and scroll down to `slack configuration`
 - Write the following items
   - Slack > Workspace
     - cf. https://${YOUR_WORKSPACE}.slack.com

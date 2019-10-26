@@ -1,6 +1,6 @@
 ## 02. Make New Nodes as Slave
 
-- Click "Manage Jenkins" > "Manage Nodes" > "New Node"
+- Click "Manage Jenkins" on ${PUBLIC_IP}:8080 > "Manage Nodes" > "New Node"
 - Write Your Node name like slave01
 - Check `Parmament Agent`
 - Press "OK"
@@ -12,6 +12,15 @@
   - Remote root directory
     - cf. root@slave01:/home/jenkins# pwd
           /home/jenkins
+  
+- Set each value on the following items
+
+  | Item                           | Value                               |
+  |--------------------------------|-------------------------------------|
+  | Usage                          | Use this node as much as possible   |
+  | Launch method                  | Launch agent agents via SSH         |
+  | Host Key Verification Strategy | Non verifying Verification Strategy |
+
 
   - Lanch method > Host
 
@@ -27,7 +36,6 @@
 - Copy and paste `$YOUR_PRIVATE_KEY on master cluster`
 - Press "Add"
 - Press "none", and select "jenkins"
-- Press "Known hosts file Verification Strategy", and change it to `Non verifying Verification Strategy`
 - Press "Save", after pop-up window closes
 
 <img src="/docs/02_makeNodes/img/setNewNode3.png" alt="Select installation plan" style="max-width:5%;">

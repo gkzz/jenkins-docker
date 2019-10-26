@@ -3,7 +3,7 @@
 
 ### Installtion
 
-- Open your Jenkins management console on http://${PUBLIC_IP}:8080
+- Open your Jenkins management console on ${PUBLIC_IP}:8080
 
 - Set your initialAdminPassword, and press "Continue"
 
