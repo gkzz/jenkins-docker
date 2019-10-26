@@ -1,0 +1,7 @@
+# general
+.
+..
+
+# jenkins
+jenkins_home
+conf/secrets.env

@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+
+  master:
+    container_name: master
+    image: jenkins/jenkins:lts
+    user: root
+    hostname: master
+    ports:
+      - 8080:8080
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
+    links:
+      - slave01
+
+  
+  slave01:
+    container_name: slave01
+    image: jenkins/ssh-slave
+    hostname: slave01
+    env_file:
+      - conf/secrets.env
