@@ -25,7 +25,7 @@
 
 <img src="/docs/03_installSlackPlugin/img/executeReload.png" alt="Get restart" style="max-width:5%;">
 
-- Click "Manage Jenkins" > "Configure System" > "Available"
+- Click "Manage Jenkins" > "Configure System", and scroll down to slack configuration
 - Write the following items
   - Slack > Workspace
     - cf. https://${YOUR_WORKSPACE}.slack.com
@@ -35,21 +35,13 @@
 
 <img src="/docs/03_installSlackPlugin/img/configSlackPlugin1.png" alt="Config slack plugin" style="max-width:5%;">
 
-- Select "Secret text" for "Kind"
+- Press "Username with password", and change it to *Secret text*
 - Paste "Token" you copied for "Secret"
-- Press "Add"
+- Press "Add" (, the pop-up window will close automaticaly)
 
 <img src="/docs/03_installSlackPlugin/img/configSlackPlugin2.png" alt="Config slack plugin" style="max-width:5%;">
 
-- Press "none", "jenkins", "Apply", and "Save"
+- Press "none", and change it to *jenkins*
+- Press "Apply", and "Save"
 
-
-
-
-	
-Help for feature: Workspace
- 	Credential	
- 
- Add
-Help for feature: Credential
  	
