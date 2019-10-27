@@ -47,7 +47,8 @@ ubuntu@hostname ~/jenkins-docker (master) $
 
 ### Set Your Pub Key to conf/secrets.env
 ```
-ubuntu@hostname ~/jenkins-docker (master) $ cat jenkins_home/.ssh/id_rsa_jenkins_master.pub >> conf/secrets.env
+ubuntu@hostname ~/jenkins-docker (master) $ echo "JENKINS_SLAVE_SSH_PUBKEY=" > conf/secrets.env && \
+cat jenkins_home/.ssh/id_rsa_jenkins_master.pub >> conf/secrets.env
 ubuntu@hostname ~/jenkins-docker (master) $ cat conf/secrets.env      //Modify like conf/secrets.env.tmpl
 JENKINS_SLAVE_SSH_PUBKEY=ssh-rsa xxxxxxxxxxxxxxxxxxxx== sample@sample.com
 ```
