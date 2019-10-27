@@ -4,7 +4,7 @@
 - Enter your new item's name
 - Select `Pipeline` and "OK"
 
-<img src="/docs/makeJobs/img/selectPipeline.png" alt="Select Pipeline" style="max-width:5%;">
+<img src="/docs/04_makeJobs/img/selectPipeline.png" alt="Select Pipeline" style="max-width:5%;">
 
 - Scroll down to `Pipeline`
 - Press "Pipeline Syntax"
@@ -17,7 +17,7 @@ pwd
 ping -w 3 -c 1 www.google.com
 ```
 
-<img src="/docs/makeJobs/img/enterShellScript.png" alt="Enter shellscript" style="max-width:5%;">
+<img src="/docs/04_makeJobs/img/enterShellScript.png" alt="Enter shellscript" style="max-width:5%;">
 
 - Press `Generate Pipeline Script`
 - Copy the script
@@ -51,11 +51,11 @@ node("slave01") {
 
 - Press "Apply" and "Save"
 
-<img src="/docs/makeJobs/img/PastePipelinescript.png" alt="Paste pipeline script" style="max-width:5%;">
+<img src="/docs/04_makeJobs/img/PastePipelinescript.png" alt="Paste pipeline script" style="max-width:5%;">
 
 - Try it out!
 
-<img src="/docs/makeJobs/img/runMyJobBySlave.gif" alt="Run job by slave" style="max-width:5%;">
+<img src="/docs/04_makeJobs/img/runMyJobBySlave.gif" alt="Run job by slave" style="max-width:5%;">
 
 
 
