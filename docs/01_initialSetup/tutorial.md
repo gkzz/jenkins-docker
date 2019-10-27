@@ -4,7 +4,7 @@
 ### Installtion
 
 - Open your Jenkins management console on ${PUBLIC_IP}:8080
-
+  - [Jenkins Setup Wizard Blank](docs/x_faq/tutorial.md) may help you, if Jenkins gives blank page 
 - Set your initialAdminPassword, and press "Continue"
 
 <img src="/docs/01_initialSetup/img/setInitPw.png" alt="Set your initialAdminPassword" style="max-width:5%;">

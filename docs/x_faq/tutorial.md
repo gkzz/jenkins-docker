@@ -16,4 +16,11 @@
 
   - As shown below, the IP address of GitHub is described at [meta](https://api.github.com/meta)
   - The IP address of hooks is allowed by the security group
+
+  <img src="/docs/x_faq/img/securityGroup.png" alt="security group" style="max-width:5%;">
+
+- Jenkins Setup Wizard Blank
+  Just move on ${PUBLIC_IP}:8080/restart or localhost:8080/restart
+
+  <img src="/docs/x_faq/img/setupWizardBlank.png" alt="Setup Wizard Blank" style="max-width:5%;">
   
