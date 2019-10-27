@@ -53,4 +53,9 @@ node("slave01") {
 
 <img src="/docs/makeJobs/img/PastePipelinescript.png" alt="Paste pipeline script" style="max-width:5%;">
 
+- Try it out!
+
+<img src="/docs/makeJobs/img/runMyJobBySlave.gif" alt="Run job by slave" style="max-width:5%;">
+
+
 
